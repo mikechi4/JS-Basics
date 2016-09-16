@@ -25,8 +25,6 @@ var name = 'Tyler';
   	return name;
   }
 
-  getName();
-
 //////////////////PROBLEM 3////////////////////
 
 
@@ -35,7 +33,9 @@ var name = 'Tyler';
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
-
+	function welcome(){
+		alert("Welcome, " + getName());
+	}
 
 //////////////////PROBLEM 4////////////////////
 
@@ -45,6 +45,7 @@ var name = 'Tyler';
 //What is the difference between arguments and parameters?
 
   //Answer Here
+  //Parameters are declared when the function is created. Arguments are the actual values passed in the function when it is called.
 
 
 //////////////////PROBLEM 5////////////////////
@@ -55,6 +56,9 @@ var name = 'Tyler';
 
 
   //Answer Here
+  // 0, null, undefined, false, NaN, ""
+  // to check if something is falsy you can do if statements
+  // if(0 == false)
 
 
 
