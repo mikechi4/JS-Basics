@@ -25,6 +25,8 @@ var name = 'Tyler';
   	return name;
   }
 
+  getName();
+
 //////////////////PROBLEM 3////////////////////
 
 
